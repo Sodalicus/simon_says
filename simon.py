@@ -110,12 +110,14 @@ class Game():
         self.sequence = []
         self.seq_last_time = int(time.time()) 
         self.player_seq = []
+        self.seq_playing = False
         for i in range(50):
             self.sequence.append(random.randrange(6))
 
         games.mouse.is_visible = True
         games.screen.event_grab = True
         games.screen.mainloop()
+
 
     def play(self):
         pass
