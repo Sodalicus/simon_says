@@ -109,7 +109,7 @@ class Game():
         self.player_seq = []
         self.player_seq_step = 0
         self.seq_playing = True
-        for i in range(50):
+        for i in range(15):
             self.sequence.append(random.randrange(6))
         print(self.sequence)
 
